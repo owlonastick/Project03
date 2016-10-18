@@ -23,6 +23,7 @@ public class Main {
 
         try {
             //Read the file and convert each line into a Cpu object - store in a list.
+            //
             List< Cpu > cpulist =
                     Files.lines( Paths.get("Project03Data.csv")). // Stream of each line
                     skip(1).//skip first line in file (the title line)
